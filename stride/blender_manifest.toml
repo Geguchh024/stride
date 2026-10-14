@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "stride"
+version = "0.2.0"
+name = "Stride"
+tagline = "First-person walks: POV camera, head motion and animated hands"
+maintainer = "orgnc"
+type = "add-on"
+
+tags = ["Animation", "Camera", "Rigging"]
+
+blender_version_min = "5.0.0"
+
+license = ["SPDX:GPL-3.0-or-later", "SPDX:CC-BY-4.0"]
+copyright = ["2026 orgnc", "2026 mrgyarmati (arm mesh and skin texture, CC-BY-4.0)"]
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc"]

@@ -1,0 +1,11 @@
+arm_source.npz, arm_skin.jpg (and the arm_*.npz meshes built from them)
+
+  Based on "Rigged Arms" by mrgyarmati
+  https://sketchfab.com/3d-models/rigged-arms-76f4c7ae0b3e4cf9a57613ab991fad06
+  Licensed under CC-BY-4.0: http://creativecommons.org/licenses/by/4.0/
+  The model is built on MakeHuman (CC0).
+
+  Changes: right arm only, triangles joined into quads and subdivided, re-posed
+  to Stride's rest pose, refitted to Stride's skeletons, skin weights renamed
+  and smoothed at the wrist, texture cropped (tools/import_hands.py,
+  stride/handmesh.py).
